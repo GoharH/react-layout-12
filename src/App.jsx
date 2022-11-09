@@ -1,16 +1,18 @@
-import Header from "./components/header";
-import Main from "./components/main";
-import Stuff from "./components/staff-section";
-import Footer from "./components/footer";
+// import Header from "./components/header";
+// import Main from "./components/main";
+// import Stuff from "./components/staff-section";
+// import Footer from "./components/footer";
+import CompoIntegrat from './components/component-integration';
+
 
 function App() {
   return (<>
 
-    <Header />
+    {/* <Header />
     <Main />
     <Stuff />
-    <Footer />
-
+    <Footer /> */}
+    <CompoIntegrat />
   </>
   );
 }
