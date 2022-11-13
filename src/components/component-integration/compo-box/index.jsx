@@ -15,13 +15,18 @@ class ComponentBox extends React.Component {
     giveBgColor = (e) => {
         this.setState({ isHover: true })
     }
-    removeBgColor = () => {
+    removeBgColor = (e) => {
         this.setState({ isHover: false })
     }
+
     render() {
         return <div className={`G-padding-33 ${this.state.isHover ? 'hovered' : ''}`}
-            style={{ backgroundColor: this.state.isHover ? this.props.colorValue : 'transparent' }}>
+            style={{ backgroundColor: this.state.isHover ? this.props.colorValue ? this.props.colorValue : 'blue' : 'transparent' }}
+            onMouseLeave={this.removeBgColor}
+            onMouseOver={this.giveBgColor}
+            onClick={this.props.onClick1}>
             <div className="compo-box hover">
+                {this.props.children}
                 {this.props.main && this.props.main.length ? <p>{this.props.main}</p> : null}
             </div>
         </div>

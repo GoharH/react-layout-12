@@ -35,6 +35,9 @@ class CompoIntegrat extends React.Component {
             text: 'text'
         },
     ]
+    onClick1 = (e) => {
+        console.log(this.componentBoxList)
+    }
     render() {
         return <section className="G-container">
             <div className="compo-integration-flex">
