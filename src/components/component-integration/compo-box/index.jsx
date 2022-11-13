@@ -24,7 +24,7 @@ class ComponentBox extends React.Component {
             style={{ backgroundColor: this.state.isHover ? this.props.colorValue ? this.props.colorValue : 'blue' : 'transparent' }}
             onMouseLeave={this.removeBgColor}
             onMouseOver={this.giveBgColor}
-            onClick={this.props.onClick1}>
+            onClick={this.props.onClick}>
             <div className="compo-box hover">
                 {this.props.children}
                 {this.props.main && this.props.main.length ? <p>{this.props.main}</p> : null}

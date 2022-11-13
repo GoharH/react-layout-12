@@ -35,8 +35,9 @@ class CompoIntegrat extends React.Component {
             text: 'text'
         },
     ]
-    onClick1 = (e) => {
-        console.log(this.componentBoxList)
+    onClick = (e) => {
+        console.log('11111')
+
     }
     render() {
         return <section className="G-container">
@@ -44,7 +45,8 @@ class CompoIntegrat extends React.Component {
                 {this.componentBoxList.map((item, index) => {
                     return <ComponentBox key={index}
                         main={item.description}
-                        colorValue={item.colorValue}>
+                        colorValue={item.colorValue}
+                        onClick={this.onClick}>
                         <h3>{item.text}</h3>
                     </ComponentBox>
                 })}
