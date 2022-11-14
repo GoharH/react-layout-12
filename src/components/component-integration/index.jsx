@@ -37,7 +37,7 @@ class CompoIntegrat extends React.Component {
     ]
     onClick = (e) => {
         console.log('11111')
-
+        //console.log(this.componentBoxList)
     }
     render() {
         return <section className="G-container">
