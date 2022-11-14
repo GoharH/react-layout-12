@@ -1,0 +1,24 @@
+.img-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    .img-box {
+        // max-width: 380px;
+        width: 380px;
+        height: 284px;
+        margin: -15px;
+        // display: flex;
+        // align-items: center;
+        padding: 40px 5px 5px;
+    }
+    .img-box-title {
+        width: 180px;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+.box-bg-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+.header-title {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    h1 {
+        font-size: 38px;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+.nav-list {
+    display: flex;
+    padding: 5px 0px 15px;
+    .nav-list-item {
+        font-size: 15px;
+        margin: 0px 10px;
+        color: white;
+    }
+}
