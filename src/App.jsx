@@ -3,7 +3,8 @@
 // import Stuff from "./components/staff-section";
 // import Footer from "./components/footer";
 //import CompoIntegrat from './components/component-integration';
-import ImageSection from './components/image-integration';
+// import ImageSection from './components/image-integration';
+import UserRegister from './components/registration';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     <Stuff />
     <Footer /> */}
     {/* <CompoIntegrat /> */}
-    <ImageSection />
+    {/* <ImageSection /> */}
+    <UserRegister />
   </>
   );
 }
