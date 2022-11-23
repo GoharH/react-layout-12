@@ -1,0 +1,12 @@
+.instruments {
+    width: 350px;
+    padding: 25px;
+    background-color: rgba(203, 244, 244, 0.808);
+    .title-changer {
+        border: 1px solid rgb(3, 3, 48);
+    }
+}
+
+.work-space {
+    width: calc(100%-350px);
+}
